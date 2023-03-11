@@ -11,7 +11,7 @@ def attack(char_name, char_class):
     if char_class == 'healer':
         damage = 5 + randint(-3, -1)
         return (f'{char_name} нанёс урон противнику равный {damage}')
-    return (f'{char_name} не нанёс урон противнику')
+    return (f'{char_name} не нанёс урон вашему противнику')
 
 
 def defence(char_name, char_class):
